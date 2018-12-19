@@ -1,0 +1,45 @@
+
+body{
+    background-image: url(https://st.depositphotos.com/2010295/4363/v/950/depositphotos_43630163-stock-illustration-seamless-background-shopping-bag-package.jpg);
+    font-family: Arial;
+    font-style: italic;
+}
+
+.true{
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+    color:rgba(169, 169, 169,0.5);
+}
+
+.true, .false{
+    margin: 5px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.action-list{
+    position:absolute;
+    left:50%;
+    margin-left: -150px;
+    border-radius: 5%;
+    padding:20px;
+    width: 300px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 224, 0.5);
+}
+
+label, input{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#app{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: 10px;
+    font-style: italic;
+}
